@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import io
+import sys
+
 class Book:
     def __init__(self, title, page_count):
         self.title = title
